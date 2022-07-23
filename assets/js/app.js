@@ -1,42 +1,4 @@
 
-  // let products = await fetch('https://fakestoreapi.com/products');
-  //     products = await products.json();
-
-  // console.log(products);
-  
-  // function render(item){
-  //   return item.map(item => `
-  
-  //   <div class="card shadow">
-  //     <div class="mt-4 align-self-center">
-  //       <img src="${item.image}" class="card-img-top" alt="...">
-  //     </div>
-  //     <div class="card-body">
-  //       <h5 class="card-title">${item.title}</h5>
-  //       <p class="card-text">${item.description}</p>
-  //     </div>
-  //     <p class="text-end fs-5 fw-bold">$${item.price}</p>
-  //   </div>
-  
-  // `).join('');
-  // }
-  
-  // productsContainer.innerHTML = render(products);
-
-  // flexRadioDefault1.addEventListener('click', function() {
-  //   let arrIncrease = [...products];
-  //   arrIncrease.sort((a,b) => a.price - b.price);
-  //   productsContainer.innerHTML = render(arrIncrease);
-  // })
-
-  // flexRadioDefault2.addEventListener('click', function() {
-  //   let arrDecrease = [...products];
-  //   arrDecrease.sort((a,b) => b.price - a.price);
-  //   console.log(arrDecrease);
-  //   productsContainer.innerHTML = render(arrDecrease);
-  // })
-
-
     const URL = 'https://fakestoreapi.com/products';
 
     let products       = document.getElementById('products-container');
